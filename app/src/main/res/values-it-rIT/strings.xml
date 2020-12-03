@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Switch Simple Screenshot</string>
+    <string name="permissionDenied">Permesso non concesso dall\'utente.</string>
+</resources>
