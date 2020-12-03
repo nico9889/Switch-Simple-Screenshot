@@ -20,8 +20,8 @@ that you want to download and download of all the images to the default DCIM fol
 ## Known Issues
 
 This is my "first" Android application. It's not ready for daily use and it's just a proof of concept, there's a lot of issues that need to be handled.
-[ ] - Devices with Android version <10.0 are not supported (I don't have any devices with lower version to test the app, so I focused on devices with Android version 10+ that use newer API to store files in memory and connect to custom network)
-[ ] - You need to restart the application to do multiple download (If the QR Code is found, the QR Code scanner just stop forever)
-[ ] - There are no check on the WiFi name (every Switch hotspot name should start with "switch-" followed by a kind of serial number, if not checked this can become a potential security issue. **DO NOT SCAN QR CODE THAT YOU DONT TRUST. SCAN ONLY YOUR NINTENDO SWITCH QR CODE.**)
+- [ ] Devices with Android version <10.0 are not supported (I don't have any devices with lower version to test the app, so I focused on devices with Android version 10+ that use newer API to store files in memory and connect to custom network)
+- [ ] You need to restart the application to do multiple download (If the QR Code is found, the QR Code scanner just stop forever)
+- [ ] There are no check on the WiFi name (every Switch hotspot name should start with "switch-" followed by a kind of serial number, if not checked this can become a potential security issue. **DO NOT SCAN QR CODE THAT YOU DONT TRUST. SCAN ONLY YOUR NINTENDO SWITCH QR CODE.**)
 
 **This software is not developed nor mantained by Nintendo. If you find some issues please open an issue here on GitHub.**
