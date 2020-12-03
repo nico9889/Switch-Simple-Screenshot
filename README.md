@@ -7,15 +7,14 @@ This require your Nintendo Switch updated to version >= 11.0 since the "Send to 
 
 ## How does this work
 
-When you share screenshots from your console the Nintendo Switch became an (Hotspot)[https://en.wikipedia.org/wiki/Hotspot_(Wi-Fi)] protected by a randomly generated password and start hosting a (Web Server)[https://en.wikipedia.org/wiki/Web_server].
-When you scan the first QR Code your device get the Hostpot SSID Name and Password to connect.
-When you scan the second QR Code your device open the web page hosted by your Nintendo Switch at address http://192.168.0.1/index.html.
-This page is initally empty: with the page the Nintendo Switch serve a JavaScript file that does a GET Request and download a JSON file from the Switch from http://192.168.0.1/data.json.
-This data.json file contains all the strings displayed on the web page, translated to your language and an array containing **all the filenames** of the downloadable content.
+When you share screenshots from your console the Nintendo Switch became an [Hotspot](https://en.wikipedia.org/wiki/Hotspot_(Wi-Fi)) protected by a randomly generated password and start hosting a [Web Server](https://en.wikipedia.org/wiki/Web_server).</br>
+When you scan the first QR Code your device get the Hostpot SSID Name and Password to connect.</br>
+When you scan the second QR Code your device open the web page hosted by your Nintendo Switch at address http://192.168.0.1/index.html.</br>
+This page is initally empty: with the page the Nintendo Switch serve a JavaScript file that does a GET Request and download a JSON file from the Switch from http://192.168.0.1/data.json.</br>
+This data.json file contains all the strings displayed on the web page, translated to your language and an array containing **all the filenames** of the downloadable content.</br>
 Later on, the JavaScript download all the images contained into the array from http://192.168.0.1/img/extremely_long_file_name_that_we_find_in_json_array.jpg(/mp4).
 
-After scanning the first QRCOde to connect to the Switch network, this application automatically connect to http://192.168.0.1/data.json to get the filenames of all the photos (or the video name) 
-that you want to download and download of all the images to the default DCIM folder of your device.
+After scanning the first QRCode to connect to the Switch network, this application automatically connect to http://192.168.0.1/data.json to get the filenames of all the photos (or the video name) available to download and save all the images to the default DCIM folder of your device.
 
 ## Known Issues
 
